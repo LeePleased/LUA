@@ -1,0 +1,12 @@
+# Ignore dirs:
+__pycache__
+/.idea
+/datasets
+/logs
+/dump
+
+# Ignore files:
+.DS_Store
+/resource
+service.py
+/scripts
