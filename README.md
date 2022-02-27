@@ -31,3 +31,19 @@ For Chinese tasks, the source to construct "pretrained_lm" is bert-base-chinese.
 ```
 CUDA_VISIBLE_DEVICES=0 python main.py -dd dataset -sd dump -rd resource
 ```
+
+## Citation
+```
+@inproceedings{li-etal-2021-segmenting-natural,
+    title = "Segmenting Natural Language Sentences via Lexical Unit Analysis",
+    author = "Li, Yangming  and  Liu, Lemao  and  Shi, Shuming",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.18",
+    doi = "10.18653/v1/2021.findings-emnlp.18",
+    pages = "181--187",
+}
+```
